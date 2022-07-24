@@ -27,6 +27,7 @@ html {
 .container{
     max-width: 1030px;
     margin: auto;
+    overflow: hidden;
 }
 
 .section-margin{
@@ -1039,7 +1040,7 @@ body{
     .service .galery .item{
         position: relative;
         /* background-color: #FF6F3D; */
-        margin-bottom: 20PX;
+        margin-bottom: 20px;
     }
 
     .item img{
@@ -1217,7 +1218,7 @@ body{
 
 
 /* Mobile */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 415px){
 
     /* Home Start */
     .home .container{
@@ -1291,13 +1292,11 @@ body{
     }
     /* Panel End */
 
+    /* Service Start*/
     .service{
         margin-top: 120px;
     }
-    /* Diskon Start */
-
-    /* Service */
-        .text-title .title{
+    .text-title .title{
         /* background-color: blue; */
         font-size: 25px;
     }
@@ -1306,6 +1305,23 @@ body{
         margin-top: 26px;
         font-size: 18px;
     }
+
+    .service .galery{
+        width: 100%;
+        padding: 0;
+    }
+
+    .service .galery .item{
+        width: 100%;
+    }
+
+    .service .galery .item img{
+        width: 100%;
+    }
+
+    /* Service End */
+
+    /* Diskon Start */
 
     .diskon{
     /* background-color: #FF6F3D; */
